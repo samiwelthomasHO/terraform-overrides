@@ -18,6 +18,8 @@ The `main.tf` specifies which resources will get created, based on the feature c
 
 ## How to use?
 
+The example is designed to run for a single account at a time, making it suitable to run as part of a matrix job to target multiple accounts concurrently.
+
 Navigate into the `terraform` directory.
 
 ```bash
