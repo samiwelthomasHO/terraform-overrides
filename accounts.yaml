@@ -1,0 +1,13 @@
+accounts:
+  - name: account1
+    orgUnit: Workloads
+    env: Dev
+    tenant: Team1
+  - name: account2
+    orgUnit: Workloads
+    env: Prod
+    tenant: Team2
+  - name: account3
+    orgUnit: Platform
+    env: Dev
+    tenant: Team1

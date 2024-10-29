@@ -1,0 +1,9 @@
+orgUnit:
+  Workloads:
+    additionalResources:
+      - name: role1
+      - name: role2
+
+account:
+  account3:
+    enableResourceB: true

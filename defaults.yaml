@@ -1,0 +1,4 @@
+defaults:
+  enableResourceA: true
+  enableResourceB: false
+  additionalResources: []
