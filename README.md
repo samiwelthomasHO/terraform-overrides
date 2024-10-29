@@ -1,6 +1,6 @@
 # Terraform Overrides Example
 
-A repo that demonstrates how terraform resources can be optionally provisioned into a list of accounts using a predefined [default](./defaults.yaml) configuration.
+A repo that demonstrates how terraform resources can be optionally provisioned into multiple accounts using a predefined [default](./defaults.yaml) configuration.
 
 To reduce the amount of configuration required, [overrides](./overrides.yaml) can be set at either the OU level or the individual account level, when deviations from the default configuration need to be configured.
 
