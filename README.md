@@ -2,7 +2,7 @@
 
 A repo that demonstrates how terraform resources can be optionally provisioned into multiple accounts using a predefined [default](./defaults.yaml) configuration.
 
-To reduce the amount of configuration required, [overrides](./overrides.yaml) can be set at either the OU level or the individual account level, when deviations from the default configuration need to be configured.
+To reduce the amount of configuration required, [overrides](./overrides.yaml) can be set at either the OU level or the individual account level, when deviations from the default configuration are required.
 
 This example repository uses a YAML file to provide a list of [accounts](./accounts.yaml), but the data could be sourced from anywhere.
 
@@ -24,6 +24,12 @@ Navigate into the `terraform` directory.
 
 ```bash
 cd terraform/
+```
+
+Initialise terraform.
+
+```bash
+terraform init
 ```
 
 Run a terraform plan and apply as normal.
